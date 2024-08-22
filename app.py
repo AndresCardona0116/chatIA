@@ -39,13 +39,13 @@ st.sidebar.markdown(
 )
 
 # Configuración de la aplicación
-st.title("💙 DomiAssistant 💙")
+st.title("💙 Dom-IA 💙")
 
 # Configuración de OAuth2
 CLIENT_SECRETS_FILE = "./client_secret.json"  # Asegúrate de que la ruta es correcta
 SCOPES = ["https://www.googleapis.com/auth/cloud-platform"]
 REDIRECT_URI = 'http://localhost:8501/'
-project_id = "domina-bi"
+project_id = "domina-ia"
 
 def authenticate_user():
     try:
